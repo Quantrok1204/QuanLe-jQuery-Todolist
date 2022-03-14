@@ -94,6 +94,7 @@ li {
 .done li {
     background: rgb(77, 211, 117);
     text-decoration: line-through;
+    color: #ccc;
 }
 
 li button {
