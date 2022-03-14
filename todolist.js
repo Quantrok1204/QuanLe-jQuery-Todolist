@@ -2,7 +2,7 @@ const input = document.querySelector('input');
 const btn = document.querySelector('.user > button');
 btn.addEventListener('click', addList);
 
-function addList(e) {
+function addList() {
     const list = document.querySelector('.list');
     const done = document.querySelector('.done');
     const newLi = document.createElement('li');
